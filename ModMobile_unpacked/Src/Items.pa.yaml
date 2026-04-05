@@ -1,0 +1,879 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps should only be used to review changes made within Power Apps Studio and for minor edits (Preview).
+# Use the maker portal to create and edit your Power Apps.
+# 
+# The schema file for Canvas Apps is available at https://go.microsoft.com/fwlink/?linkid=2304907
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Items:
+    Properties:
+      Fill: =RGBA(255, 255, 255, 1)
+      LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Children:
+      - Container6:
+          Control: GroupContainer@1.5.0
+          Variant: AutoLayout
+          Properties:
+            DropShadow: =DropShadow.None
+            Height: =Parent.Height
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+          Children:
+            - Container7:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  AlignInContainer: =AlignInContainer.SetByContainer
+                  BorderStyle: =BorderStyle.None
+                  DropShadow: =DropShadow.None
+                  FillPortions: =0
+                  Height: =90
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Vertical
+                  LayoutMinHeight: =0
+                  LayoutMinWidth: =0
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                Children:
+                  - Container18:
+                      Control: GroupContainer@1.5.0
+                      Variant: AutoLayout
+                      Properties:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Fill: =RGBA(26, 58, 92, 1)
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutDirection: =LayoutDirection.Horizontal
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =0
+                        LayoutMinWidth: =0
+                        PaddingBottom: =6
+                        PaddingTop: =6
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                      Children:
+                        - Icon2:
+                            Control: Classic/Icon@2.5.0
+                            Properties:
+                              AlignInContainer: =AlignInContainer.Stretch
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              Color: =RGBA(127, 178, 57, 1)
+                              DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                              DisabledColor: =RGBA(225, 223, 221, 1)
+                              DisabledFill: =RGBA(0, 0, 0, 0)
+                              FillPortions: =1
+                              FocusedBorderThickness: =0
+                              Height: =333
+                              HoverBorderColor: =RGBA(0, 0, 0, 0)
+                              HoverColor: =RGBA(16, 110, 190, 1)
+                              HoverFill: =RGBA(0, 0, 0, 0)
+                              Icon: =Icon.ChevronLeft
+                              LayoutMaxWidth: =33
+                              LayoutMinHeight: =0
+                              LayoutMinWidth: =33
+                              PaddingBottom: =33
+                              PaddingLeft: =6
+                              PaddingRight: =6
+                              PaddingTop: =33
+                              PressedBorderColor: =RGBA(0, 0, 0, 0)
+                              PressedColor: =RGBA(16, 110, 190, 1)
+                              PressedFill: =RGBA(0, 0, 0, 0)
+                        - Container23:
+                            Control: GroupContainer@1.5.0
+                            Variant: AutoLayout
+                            Properties:
+                              DropShadow: =DropShadow.None
+                              FillPortions: =6
+                              LayoutDirection: =LayoutDirection.Vertical
+                              LayoutMinHeight: =0
+                              LayoutMinWidth: =16
+                              RadiusBottomLeft: =0
+                              RadiusBottomRight: =0
+                              RadiusTopLeft: =0
+                              RadiusTopRight: =0
+                            Children:
+                              - Label8:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    AlignInContainer: =AlignInContainer.Stretch
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(255, 255, 255, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    FocusedBorderThickness: =4
+                                    Font: =Font.'Segoe UI'
+                                    FontWeight: =FontWeight.Bold
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                    Size: =16
+                                    Text: ="Detalle"
+                              - Label9:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    AlignInContainer: =AlignInContainer.Stretch
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(255, 255, 255, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    FocusedBorderThickness: =4
+                                    Font: =Font.'Segoe UI'
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                    Text: ="Jr.Huancavelica 340"
+                        - Container1:
+                            Control: GroupContainer@1.5.0
+                            Variant: AutoLayout
+                            Properties:
+                              DropShadow: =DropShadow.None
+                              FillPortions: =0
+                              Height: =90
+                              LayoutAlignItems: =LayoutAlignItems.Center
+                              LayoutDirection: =LayoutDirection.Horizontal
+                              LayoutJustifyContent: =LayoutJustifyContent.Center
+                              LayoutMinHeight: =0
+                              RadiusBottomLeft: =0
+                              RadiusBottomRight: =0
+                              RadiusTopLeft: =0
+                              RadiusTopRight: =0
+                              Width: =81
+                            Children:
+                              - Button1:
+                                  Control: Classic/Button@2.2.0
+                                  Properties:
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    Color: =RGBA(255, 255, 255, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    DisabledFill: =RGBA(242, 242, 241, 0)
+                                    Fill: =RGBA(0, 108, 191, 1)
+                                    Font: =Font.'Segoe UI'
+                                    Height: =51
+                                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                                    HoverColor: =RGBA(255, 255, 255, 1)
+                                    HoverFill: =RGBA(16, 110, 190, 1)
+                                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                                    PressedColor: =RGBA(255, 255, 255, 1)
+                                    PressedFill: =RGBA(16, 110, 190, 1)
+                                    RadiusBottomLeft: =333
+                                    RadiusBottomRight: =333
+                                    RadiusTopLeft: =333
+                                    RadiusTopRight: =333
+                                    Text: ="HG"
+                                    Width: =53
+                                    X: =15
+                                    Y: =20
+            - Container8:
+                Control: GroupContainer@1.5.0
+                Variant: ManualLayout
+                Properties:
+                  AlignInContainer: =AlignInContainer.SetByContainer
+                  DropShadow: =DropShadow.None
+                  FillPortions: =4
+                  LayoutMinHeight: =16
+                  LayoutMinWidth: =16
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                  X: =40
+                  Y: =40
+                Children:
+                  - HtmlText2:
+                      Control: HtmlViewer@2.1.0
+                      Properties:
+                        DisabledBorderColor: =RGBA(161, 159, 157, 1)
+                        Font: =Font.'Segoe UI'
+                        Height: =Parent.Height
+                        HtmlText: ="<div style='background:linear-gradient(135deg,#1a3a5c 0%,#1e4976 40%,#2a5f8f 70%,#1d3d5e 100%);width:100%;height:" & Parent.Height & "px;'>&nbsp;</div>"
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Width: =Parent.Width
+                  - Container17:
+                      Control: GroupContainer@1.5.0
+                      Variant: AutoLayout
+                      Properties:
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                        PaddingLeft: =33
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Width: =Parent.Width
+                      Children:
+                        - Container26:
+                            Control: GroupContainer@1.5.0
+                            Variant: AutoLayout
+                            Properties:
+                              AlignInContainer: =AlignInContainer.SetByContainer
+                              DropShadow: =DropShadow.None
+                              LayoutAlignItems: =LayoutAlignItems.Center
+                              LayoutDirection: =LayoutDirection.Vertical
+                              LayoutMaxHeight: =55
+                              LayoutMinHeight: =33
+                              LayoutMinWidth: =16
+                              RadiusBottomLeft: =0
+                              RadiusBottomRight: =0
+                              RadiusTopLeft: =0
+                              RadiusTopRight: =0
+                            Children:
+                              - Label10:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    AlignInContainer: =AlignInContainer.Stretch
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(255, 255, 255, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    FocusedBorderThickness: =4
+                                    Font: =Font.'Segoe UI'
+                                    FontWeight: =FontWeight.Bold
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                    Text: ="Calle Los Pinos 89"
+                              - Container3:
+                                  Control: GroupContainer@1.5.0
+                                  Variant: AutoLayout
+                                  Properties:
+                                    LayoutAlignItems: =LayoutAlignItems.Center
+                                    LayoutDirection: =LayoutDirection.Horizontal
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                    PaddingBottom: =8
+                                    PaddingLeft: =8
+                                    PaddingRight: =8
+                                    PaddingTop: =8
+                                  Children:
+                                    - Label11:
+                                        Control: Label@2.5.1
+                                        Properties:
+                                          BorderColor: =RGBA(0, 0, 0, 0)
+                                          BorderStyle: =BorderStyle.None
+                                          BorderThickness: =2
+                                          Color: =RGBA(50, 49, 48, 1)
+                                          DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                          DisabledColor: =RGBA(161, 159, 157, 1)
+                                          FocusedBorderThickness: =4
+                                          Font: =Font.'Segoe UI'
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =9
+                                          PaddingBottom: =0
+                                          PaddingLeft: =0
+                                          PaddingRight: =0
+                                          PaddingTop: =0
+                                          Text: |-
+                                            ="🙍"
+                                          Width: =33
+                                    - Label12:
+                                        Control: Label@2.5.1
+                                        Properties:
+                                          BorderColor: =RGBA(0, 0, 0, 0)
+                                          BorderStyle: =BorderStyle.None
+                                          BorderThickness: =2
+                                          Color: =RGBA(255, 255, 255, 1)
+                                          DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                          DisabledColor: =RGBA(161, 159, 157, 1)
+                                          FocusedBorderThickness: =4
+                                          Font: =Font.'Segoe UI'
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =16
+                                          Text: ="Roberto Diaz"
+                                    - Label13:
+                                        Control: Label@2.5.1
+                                        Properties:
+                                          BorderColor: =RGBA(0, 0, 0, 0)
+                                          BorderStyle: =BorderStyle.None
+                                          BorderThickness: =2
+                                          Color: =RGBA(50, 49, 48, 1)
+                                          DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                          DisabledColor: =RGBA(161, 159, 157, 1)
+                                          FocusedBorderThickness: =4
+                                          Font: =Font.'Segoe UI'
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =16
+                                          Text: |-
+                                            ="📍"
+                                          Width: =33
+                                    - Label14:
+                                        Control: Label@2.5.1
+                                        Properties:
+                                          BorderColor: =RGBA(0, 0, 0, 0)
+                                          BorderStyle: =BorderStyle.None
+                                          BorderThickness: =2
+                                          Color: =RGBA(255, 255, 255, 1)
+                                          DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                          DisabledColor: =RGBA(161, 159, 157, 1)
+                                          FocusedBorderThickness: =4
+                                          Font: =Font.'Segoe UI'
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =16
+                                          Text: ="Surco"
+                        - Container27:
+                            Control: GroupContainer@1.5.0
+                            Variant: AutoLayout
+                            Properties:
+                              AlignInContainer: =AlignInContainer.SetByContainer
+                              DropShadow: =DropShadow.None
+                              LayoutAlignItems: =LayoutAlignItems.Center
+                              LayoutDirection: =LayoutDirection.Vertical
+                              LayoutMinHeight: =16
+                              LayoutMinWidth: =16
+                              PaddingBottom: =8
+                              PaddingLeft: =8
+                              PaddingRight: =8
+                              PaddingTop: =8
+                              RadiusBottomLeft: =0
+                              RadiusBottomRight: =0
+                              RadiusTopLeft: =0
+                              RadiusTopRight: =0
+                            Children:
+                              - Container9:
+                                  Control: GroupContainer@1.5.0
+                                  Variant: AutoLayout
+                                  Properties:
+                                    LayoutAlignItems: =LayoutAlignItems.Center
+                                    LayoutDirection: =LayoutDirection.Horizontal
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                  Children:
+                                    - Label15:
+                                        Control: Label@2.5.1
+                                        Properties:
+                                          BorderColor: =RGBA(0, 0, 0, 0)
+                                          BorderStyle: =BorderStyle.None
+                                          BorderThickness: =2
+                                          Color: =RGBA(255, 255, 255, 1)
+                                          DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                          DisabledColor: =RGBA(161, 159, 157, 1)
+                                          FocusedBorderThickness: =4
+                                          Font: =Font.'Segoe UI'
+                                          FontWeight: =FontWeight.Bold
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =16
+                                          Size: =33
+                                          Text: ="39%"
+                                    - Container10:
+                                        Control: GroupContainer@1.5.0
+                                        Variant: AutoLayout
+                                        Properties:
+                                          DropShadow: =DropShadow.None
+                                          LayoutAlignItems: =LayoutAlignItems.Stretch
+                                          LayoutDirection: =LayoutDirection.Vertical
+                                          LayoutMinHeight: =16
+                                          LayoutMinWidth: =16
+                                          RadiusBottomLeft: =0
+                                          RadiusBottomRight: =0
+                                          RadiusTopLeft: =0
+                                          RadiusTopRight: =0
+                                        Children:
+                                          - Container15:
+                                              Control: GroupContainer@1.5.0
+                                              Variant: ManualLayout
+                                              Properties:
+                                                DropShadow: =DropShadow.None
+                                                LayoutMinHeight: =19
+                                                LayoutMinWidth: =16
+                                                RadiusBottomLeft: =0
+                                                RadiusBottomRight: =0
+                                                RadiusTopLeft: =0
+                                                RadiusTopRight: =0
+                                              Children:
+                                                - Button3:
+                                                    Control: Classic/Button@2.2.0
+                                                    Properties:
+                                                      BorderColor: =RGBA(0, 0, 0, 0)
+                                                      BorderStyle: =BorderStyle.None
+                                                      Color: =RGBA(204, 204, 204, 1)
+                                                      DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                                      DisabledColor: =RGBA(161, 159, 157, 1)
+                                                      DisabledFill: =RGBA(242, 242, 241, 0)
+                                                      Fill: =RGBA(230, 230, 230, 1)
+                                                      Font: =Font.'Segoe UI'
+                                                      Height: =13
+                                                      HoverBorderColor: =RGBA(0, 0, 0, 0)
+                                                      HoverColor: =RGBA(255, 255, 255, 1)
+                                                      HoverFill: =RGBA(16, 110, 190, 1)
+                                                      PressedBorderColor: =RGBA(0, 69, 120, 1)
+                                                      PressedColor: =RGBA(255, 255, 255, 1)
+                                                      PressedFill: =RGBA(16, 110, 190, 1)
+                                                      RadiusBottomLeft: =33
+                                                      RadiusBottomRight: =33
+                                                      RadiusTopLeft: =33
+                                                      RadiusTopRight: =33
+                                                      Text: =
+                                                      Width: =Parent.Width-30
+                                                      Y: =7
+                                                - Button4:
+                                                    Control: Classic/Button@2.2.0
+                                                    Properties:
+                                                      BorderColor: =RGBA(0, 0, 0, 0)
+                                                      BorderStyle: =BorderStyle.None
+                                                      Color: =RGBA(255, 255, 255, 1)
+                                                      DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                                      DisabledColor: =RGBA(161, 159, 157, 1)
+                                                      DisabledFill: =RGBA(242, 242, 241, 0)
+                                                      Fill: =RGBA(0, 120, 212, 1)
+                                                      Font: =Font.'Segoe UI'
+                                                      Height: =13
+                                                      HoverBorderColor: =RGBA(0, 0, 0, 0)
+                                                      HoverColor: =RGBA(255, 255, 255, 1)
+                                                      HoverFill: =RGBA(16, 110, 190, 1)
+                                                      PressedBorderColor: =RGBA(0, 69, 120, 1)
+                                                      PressedColor: =RGBA(255, 255, 255, 1)
+                                                      PressedFill: =RGBA(16, 110, 190, 1)
+                                                      RadiusBottomLeft: =33
+                                                      RadiusBottomRight: =33
+                                                      RadiusTopLeft: =33
+                                                      RadiusTopRight: =33
+                                                      Text: =
+                                                      Y: =7
+                                          - Label16:
+                                              Control: Label@2.5.1
+                                              Properties:
+                                                AutoHeight: =true
+                                                BorderColor: =RGBA(0, 0, 0, 0)
+                                                BorderStyle: =BorderStyle.None
+                                                BorderThickness: =2
+                                                Color: =RGBA(255, 255, 255, 1)
+                                                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                                DisabledColor: =RGBA(161, 159, 157, 1)
+                                                FocusedBorderThickness: =4
+                                                Font: =Font.'Segoe UI'
+                                                LayoutMinHeight: =16
+                                                LayoutMinWidth: =16
+                                                Size: =9
+                                                Text: ="31 de 31 documentos adjuntos"
+            - Container30:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  AlignInContainer: =AlignInContainer.SetByContainer
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutMaxHeight: =55
+                  LayoutMinHeight: =50
+                  LayoutMinWidth: =16
+                Children:
+                  - Button5:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(128, 128, 128, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(217, 217, 216, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMaxHeight: =50
+                        LayoutMinHeight: =50
+                        LayoutMinWidth: =16
+                        PaddingBottom: =1
+                        PaddingLeft: =1
+                        PaddingRight: =1
+                        PaddingTop: =1
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: |-
+                          ="Est.Titulos
+                          "&"100%"
+                  - Button6:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(128, 128, 128, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(217, 217, 216, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMaxHeight: =50
+                        LayoutMinHeight: =50
+                        LayoutMinWidth: =16
+                        PaddingBottom: =1
+                        PaddingLeft: =1
+                        PaddingRight: =1
+                        PaddingTop: =1
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: ="Minuta"
+                  - Button7:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(128, 128, 128, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(217, 217, 216, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMaxHeight: =50
+                        LayoutMinHeight: =50
+                        LayoutMinWidth: =16
+                        PaddingLeft: =1
+                        PaddingRight: =1
+                        PaddingTop: =1
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: ="Baja Contable"
+            - Container13:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  DropShadow: =DropShadow.None
+                  LayoutAlignItems: =LayoutAlignItems.Center
+                  LayoutDirection: =LayoutDirection.Vertical
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutMaxHeight: =70
+                  LayoutMinHeight: =70
+                  LayoutMinWidth: =0
+                  PaddingBottom: =6
+                  PaddingTop: =6
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                Children:
+                  - TextInput2:
+                      Control: Classic/TextInput@2.3.2
+                      Properties:
+                        AlignInContainer: =AlignInContainer.Center
+                        BorderColor: =RGBA(153, 153, 153, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        Default: ="Baja Constable"
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(230, 230, 230, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Bold
+                        HoverBorderColor: =RGBA(16, 110, 190, 1)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(255, 255, 255, 1)
+                        LayoutMaxHeight: =55
+                        LayoutMinHeight: =55
+                        LayoutMinWidth: =16
+                        PaddingBottom: =3
+                        PaddingLeft: =33
+                        PaddingRight: =3
+                        PaddingTop: =3
+                        PressedBorderColor: =RGBA(0, 120, 212, 1)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(255, 255, 255, 1)
+                        RadiusBottomLeft: =19
+                        RadiusBottomRight: =19
+                        RadiusTopLeft: =19
+                        RadiusTopRight: =19
+                        Width: =Parent.Width-19
+            - Container14:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  AlignInContainer: =AlignInContainer.SetByContainer
+                  DropShadow: =DropShadow.None
+                  FillPortions: =13
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Vertical
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutMinHeight: =0
+                  LayoutMinWidth: =0
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                Children:
+                  - Gallery3:
+                      Control: Gallery@2.15.0
+                      Variant: BrowseLayout_Flexible_SocialFeed_ver5.0
+                      Properties:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        Items: =a6_tab_subitems
+                        LayoutMinHeight: =0
+                        LayoutMinWidth: =16
+                        TemplatePadding: =6
+                        TemplateSize: =66
+                      Children:
+                        - Container12:
+                            Control: GroupContainer@1.5.0
+                            Variant: AutoLayout
+                            Properties:
+                              BorderColor: =RGBA(54, 176, 75, 1)
+                              BorderThickness: =1
+                              Fill: =RGBA(235, 252, 215, 0.41)
+                              Height: =66
+                              LayoutAlignItems: =LayoutAlignItems.Stretch
+                              LayoutDirection: =LayoutDirection.Horizontal
+                              LayoutGap: =6
+                              LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                              PaddingBottom: =6
+                              PaddingLeft: =6
+                              PaddingRight: =6
+                              PaddingTop: =6
+                              RadiusBottomLeft: =13
+                              RadiusBottomRight: =13
+                              RadiusTopLeft: =13
+                              RadiusTopRight: =13
+                              Width: =Parent.Width-19
+                            Children:
+                              - Label17:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    Align: =Align.Center
+                                    AlignInContainer: =AlignInContainer.Center
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(50, 49, 48, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    FocusedBorderThickness: =4
+                                    Font: =Font.'Segoe UI'
+                                    Height: =36
+                                    LayoutMaxHeight: =66
+                                    LayoutMinHeight: =66
+                                    OnSelect: =
+                                    Text: ="✔️"
+                                    Width: =50
+                                    X: =15
+                                    Y: =10
+                              - Title1:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    AlignInContainer: =AlignInContainer.Stretch
+                                    BorderColor: =RGBA(0, 0, 0, 1)
+                                    Color: =RGBA(20, 92, 32, 1)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    FillPortions: =1
+                                    Font: =Font.'Segoe UI'
+                                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                    Height: =32
+                                    LayoutMaxHeight: =66
+                                    LayoutMinHeight: =66
+                                    LayoutMinWidth: '=    '
+                                    OnSelect: =
+                                    PaddingBottom: =0
+                                    PaddingLeft: =12
+                                    PaddingRight: =0
+                                    PaddingTop: =0
+                                    Size: =14
+                                    Text: =ThisItem.Nombre
+                                    VerticalAlign: =VerticalAlign.Top
+                                    Width: =Parent.Width
+                                    X: =16
+                                    Y: =4
+                              - Button22:
+                                  Control: Classic/Button@2.2.0
+                                  Properties:
+                                    AlignInContainer: =AlignInContainer.Center
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    Color: =RGBA(7, 59, 16, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    DisabledFill: =RGBA(242, 242, 241, 0)
+                                    Fill: =RGBA(152, 208, 70, 1)
+                                    FillPortions: =1
+                                    Font: =Font.'Segoe UI'
+                                    Height: =32
+                                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                                    HoverColor: =RGBA(255, 255, 255, 1)
+                                    HoverFill: =RGBA(16, 110, 190, 1)
+                                    LayoutMaxHeight: =39
+                                    LayoutMaxWidth: =99
+                                    LayoutMinHeight: =39
+                                    LayoutMinWidth: =99
+                                    PaddingBottom: =3
+                                    PaddingLeft: =3
+                                    PaddingRight: =3
+                                    PaddingTop: =3
+                                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                                    PressedColor: =RGBA(255, 255, 255, 1)
+                                    PressedFill: =RGBA(16, 110, 190, 1)
+                                    RadiusBottomLeft: =11
+                                    RadiusBottomRight: =11
+                                    RadiusTopLeft: =11
+                                    RadiusTopRight: =11
+                                    Size: =11
+                                    Text: ="+ adjunto"
+                                    Width: =122
+                                    X: =418
+                                    Y: =4
+                              - Label18:
+                                  Control: Label@2.5.1
+                                  Properties:
+                                    BorderColor: =RGBA(0, 0, 0, 0)
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(50, 49, 48, 1)
+                                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                                    DisabledColor: =RGBA(161, 159, 157, 1)
+                                    Font: =Font.'Segoe UI'
+                                    LayoutMinHeight: =16
+                                    LayoutMinWidth: =16
+                                    PaddingBottom: =3
+                                    PaddingLeft: =3
+                                    PaddingRight: =3
+                                    PaddingTop: =3
+                                    Text: =
+                                    Width: =11
+            - Container31:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  AlignInContainer: =AlignInContainer.SetByContainer
+                  DropShadow: =DropShadow.None
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutMaxHeight: =55
+                  LayoutMinHeight: =55
+                  LayoutMinWidth: =0
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                  X: =40
+                  Y: =40
+                Children:
+                  - Button17:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(113, 111, 110, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(230, 230, 230, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMinHeight: =16
+                        LayoutMinWidth: =16
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: |-
+                          ="🏠
+                          Inmuebles"
+                  - Button18:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(113, 111, 110, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(230, 230, 230, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMinHeight: =16
+                        LayoutMinWidth: =16
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: |-
+                          ="📊
+                          Dashboard"
+                  - Button19:
+                      Control: Classic/Button@2.2.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(113, 111, 110, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        DisabledFill: =RGBA(242, 242, 241, 0)
+                        Fill: =RGBA(230, 230, 230, 1)
+                        FillPortions: =1
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(16, 110, 190, 1)
+                        LayoutMinHeight: =16
+                        LayoutMinWidth: =16
+                        PressedBorderColor: =RGBA(0, 69, 120, 1)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =RGBA(16, 110, 190, 1)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =11
+                        Text: |-
+                          ="🙍
+                          Perfil"
